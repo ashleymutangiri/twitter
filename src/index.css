@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-twitter-blue: #1d9bf0;
+  --color-twitter-blue-hover: #1a8cd8;
+  --color-twitter-bg: #000000;
+  --color-twitter-border: #2f3336;
+  --color-twitter-text: #e7e9ea;
+  --color-twitter-text-muted: #71767b;
+  --color-twitter-hover: rgba(255, 255, 255, 0.1);
+  --color-twitter-bg-secondary: #16181c;
+  --color-twitter-bg-tertiary: #202327;
+}
+
+body {
+  background-color: var(--color-twitter-bg);
+  color: var(--color-twitter-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
